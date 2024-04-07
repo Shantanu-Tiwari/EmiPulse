@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: lightyellow;
+}
+#contact{
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius:3%;
+}
+#contact>#para{
+    font-size: 20px;
+    color:rgb(51, 51, 235);
+    margin-left: 70px;
+}
+#contact>h2{
+    margin-left: 70px;
+}
+#contact>.cont{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+label{
+    background-color: white;
+}
+#contact>.cont>.ghi{
+    width: 450px;
+    padding:10px;
+    border-radius:3%;
+    margin-left: 70px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 3%;
+    border: solid 1px rgb(160, 158, 158);
+
+}
+#contact>.cont>.ghi>p{
+    background-color: white;
+    color: black;
+}
+#contact>.cont>.ghi>h2{
+    background-color: white;
+    color: black;
+}
+#contact>.cont>.ghi>img{
+    width: 400px;
+    height:250px;
+    background-color: white;
+}
+#contact>.cont>.ghi>button{
+    width: 48px;
+    height: 48px;
+    border-radius:50%;
+    background-color: white;
+}
+#contact>.cont>.ghi>button:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+
+}
+#contact>.cont>.ghi>button>a>img{
+    width: 30px;
+    height: 30px;
+}
+.jkl{
+    border: solid 1px rgb(160, 158, 158);
+}
+#contact>.cont>.jkl{
+    padding: 20px;
+    width: 700px;
+    margin-left: 150px;
+    background-color: white;
+    border-radius: 3%;
+}
+#contact>.cont>.jkl>p{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+#contact>.cont>.jkl>input{
+    background-color:white;
+    width:650px;
+    height: 50px;
+    border-radius:3%;
+    border: 1px solid rgb(160, 158, 158);
+}
+#contact>.cont>.jkl>textarea{
+    background-color: white;
+    border-radius: 3%;
+    border: 1px solid rgb(160, 158, 158);
+}
+#contact>.cont>.jkl>button{
+    width: 680px;
+    height: 50px;
+    border-radius:3%;
+    color: white;
+    background-color: #4361ee;
+    border: 1px solid rgb(160, 158, 158);
+}

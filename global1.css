@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+:root {
+    /* fonts */
+    --font-poppins: Poppins;
+
+    /* font sizes */
+    --font-size-3xl: 22px;
+    --font-size-lg: 18px;
+    --font-size-xl: 20px;
+    --font-size-base: 16px;
+    --font-size-11xl: 30px;
+    --font-size-5xl: 24px;
+
+    /* Colors */
+    --color-white: #fff;
+    --color-gainsboro: #d9d9d9;
+
+    /* Paddings */
+    --padding-10xl: 29px;
+    --padding-6xl: 25px;
+
+    /* Border radiuses */
+    --br-13xl: 32px;
+    --br-6xl: 25px;
+}
